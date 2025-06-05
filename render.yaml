@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: getaway-geek-render
-    env: docker
-    plan: free
-    autoDeploy: true
-    region: oregon
-    healthCheckPath: /
